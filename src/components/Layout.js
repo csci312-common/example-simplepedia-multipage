@@ -6,12 +6,12 @@ export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Simplepedia</title>
+        <title>Simplerpedia</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <h1 className={styles.title}>Simplepedia</h1>
+        <h1 className={styles.title}>Simplerpedia</h1>
         {children}
       </main>
 
